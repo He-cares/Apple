@@ -1,0 +1,119 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+    .body{
+    background-color:#f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    margin:0;
+}
+#nav-bar{
+    width: 100%;
+    height: 3rem;
+    background-color: black;  
+    position: fixed;
+}
+
+#nav-bar li{
+    display: inline;
+    padding: 3.2rem ;
+}
+#nav-bar a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+       
+}
+.ul-link{
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+.show-case{
+    width: 100%;
+    height: 45rem;
+    background-image: url('../images/bags.jpeg');   
+}
+
+.iphone-11-pro{ 
+    right: 16rem;
+    top: 4rem;
+    position: absolute;
+}
+
+.title{
+    text-align: center;
+    letter-spacing: 0.1rem;
+    line-height: 2;
+}
+
+.cta{
+    display: inline-block;
+    padding-top: 11rem;
+    padding-right: 1rem;
+       
+}
+
+.cta a{
+    letter-spacing: 0.2rem;
+    padding-right: 2rem;
+}
+.show-case-2{
+    width: 100%;
+    height: 35rem;
+    background-image: url('../images/site1.jpg');
+   
+}
+.iphone-11{   
+    top: 45rem;
+    left: 18rem;
+    position: absolute;
+    
+}
+.show-case-3{
+    width: 100%;
+    height: 35rem;
+    margin-top: auto;
+    background-image: url('../images/wire.jpg');
+    
+}
+.Watch{   
+    top: 80rem;
+    left: 18rem;
+    position: absolute;
+}
+
+.plus{
+    padding: 0;
+    padding-top: 2rem;
+    visibility: hidden;
+}
+
+.plus a{
+    color: rgb(70, 7, 122);
+}
+#footer{
+    text-align: center;
+    padding-bottom: 4rem;
+    background-color: black;
+    color: white;
+}
+
+ /* .red{    
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    left:308px;
+    display: inline-block;
+    top: 107px;
+    position: relative;
+    left: 160px;
+    display: inline-block; 
+} */
+
+
